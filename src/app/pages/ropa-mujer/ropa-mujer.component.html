@@ -1,0 +1,13 @@
+<div class="div-item-mujer">
+  <ul *ngFor="let ropa of ropaMujer">
+    <li>
+      <span>
+        <a routerLink="/ropamujer/{{ ropa._id }}"
+          ><img src="{{ ropa.imagen }}" alt="{{ ropa.tipo }}"
+        /></a>
+        <p>{{ ropa.tipo }}</p>
+        <h5>{{ ropa.precio }}€</h5>
+      </span>
+    </li>
+  </ul>
+</div>

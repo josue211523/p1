@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+        
+    }
+}
+
+.info{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #00a8b0;
+    color: white;
+    margin-top: 20px;
+}
+.publi-img{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}

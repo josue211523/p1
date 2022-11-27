@@ -1,0 +1,8 @@
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/ropahombre">Ropa Hombre</a>
+    <a routerLink="/ropamujer">Ropa Mujer</a>
+    <a routerLink="/accesorios">Accesorios</a>
+    <a *ngIf="authService.logged()" routerLink="/crearopa">Crear nueva ropa</a>
+    <a routerLink="/colecciones">Colecciones</a>
+</nav>

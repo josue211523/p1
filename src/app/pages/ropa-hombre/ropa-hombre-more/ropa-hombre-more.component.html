@@ -1,0 +1,9 @@
+
+<div class="more-detail-hombre" >
+    <img src="{{ropaHombreMore.imagen}}" alt="{{ropaHombreMore.tipo}}">
+    <p>{{ropaHombreMore.tipo}}</p>
+    <h5>{{ropaHombreMore.precio}}€</h5>
+    <button *ngIf="authService.logged()" (click)="deleteRopaHombre()">Eliminar</button>
+    <button *ngIf="authService.logged()" routerLink="/updateropahombre/{{ropaHombreMore?._id}}">Editar</button>
+</div>
+<div class="vacio"></div>

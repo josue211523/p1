@@ -1,0 +1,17 @@
+.div-item-hombre{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px ;
+    
+   
+    list-style: none;
+    li{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+
+    }
+    
+}

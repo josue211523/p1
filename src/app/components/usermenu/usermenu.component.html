@@ -1,0 +1,5 @@
+<div>
+    <a *ngIf="!authService.logged()" routerLink="register">Register</a>
+    <a *ngIf="!authService.logged()" routerLink="login">Log In</a>
+    <button *ngIf="authService.logged()" (click)="logout()">Log Out</button>
+</div>
